@@ -1,6 +1,6 @@
 const fs = require('fs');
 var axios = require('axios');
-
+console.log("Test");
 // Read CSV file
 const csv = fs.readFileSync('emails.csv', 'utf-8');
 
